@@ -6,8 +6,9 @@ Before running ANY scripts from this repo, perform these tasks in the EXACT orde
 
 A few things to ask before you start with this data-code workflow.
 1. Do you have wget installed on your machine? (To check, open terminal, type wget, hit enter)
-   a. If you do, go to next section!
-   b. if you do not, follow the steps to download wget for a <a href="https://www.w3schools.com/">Visit W3Schools.com!</a> 
+2. If you do, go to next section!
+      else
+3. If you do not, follow the steps to download wget for a <a href="[https://www.maketecheasier.com/install-wget-mac/]">MAC</a> or for a <a href="[https://www.tomshardware.com/how-to/use-wget-download-files-command-line]">Windows/PC</a>.
 
 
 1. Open R studio
