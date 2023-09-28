@@ -58,16 +58,11 @@ lake_areal_change <- iceland_short %>%
   select(-area_km2) %>%
   select(hylak_id, sens.slope)
 
+# Identify the swelling, shrinking, and no change lakes
 swelling_ids <- lake_areal_change %>% filter(sens.slope > 0) %>% select(hylak_id)
 shrinking_ids <- lake_areal_change %>% filter(sens.slope < 0) %>% select(hylak_id)
 no_change_ids <- lake_areal_change %>% filter(sens.slope == 0) %>% select(hylak_id)
 
+# Output those numbers in a silly sentence
 paste0("There are ", length(swelling_ids$hylak_id), " Swelling lakes, ", 
        length(shrinking_ids$hylak_id), " Shrinking lake, and ", length(no_change_ids$hylak_id), " No-Change lakes in Iceland")
-
-
-
-
-
-
-                   
