@@ -1,4 +1,4 @@
-# sandbox (practice github, wget, & google drive)
+# sandbox (practice linking github repos, code, and google drive)
 
 This is a sandbox repository that walks through future data analysis and ease of data sharing.
 
