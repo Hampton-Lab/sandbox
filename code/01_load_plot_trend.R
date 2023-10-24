@@ -8,7 +8,7 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(dplyr, ggplot2, readr, trend, broom)
 
 # Load the file and rename the columns
-iceland <- readr::read_csv("./data/Iceland.csv", col_names = F) %>%
+iceland <- readr::read_csv("./sandbox_data/data/Iceland.csv", col_names = F) %>%
   rename(year = X1, month = X2, hylak_id = X3, lat = X4, country = X6, lon = X5, area_km2 = X7,
          temp_K = X8, percent_ice = X9)
 
